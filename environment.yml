@@ -1,0 +1,25 @@
+name: omicspred-amr-metabolomics
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - openpyxl
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - joblib
+  - google-cloud-bigquery
+  - r-base=4.4
+  - r-data.table
+  - r-dplyr
+  - r-tidyr
+  - r-readr
+  - r-readxl
+  - r-ggplot2
+  - r-lubridate
+  - r-stringr
+  - r-cowplot
+  - r-ggrepel
+  - r-circlize
