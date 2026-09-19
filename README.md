@@ -17,9 +17,9 @@ The repository contains the code and the small model/trait metadata files requir
 
 ## Genetic models
 
-The MCPS-trained models (genetic scores) developed in this study will be publicly accessible through the [OmicsPred portal](https://www.omicspred.org/) under accession codes OPGS3339470–OPGS3339610.
+The MCPS-trained models (genetic scores) developed in this study are publicly accessible through the [OmicsPred portal](https://www.omicspred.org/dataset/OPD000216) under accession codes OPGS3339470–OPGS3339610.
 
-The INTERVAL Study–trained genetic models used in this study are publicly accessible through the [OmicsPred portal](https://www.omicspred.org/) under accession codes OPGS003419–OPGS003559.
+The INTERVAL Study–trained genetic models used in this study are publicly accessible through the [OmicsPred portal](https://www.omicspred.org/dataset/OPD000003) under accession codes OPGS003419–OPGS003559.
 
 ## Running the code
 
