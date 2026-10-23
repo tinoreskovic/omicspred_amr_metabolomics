@@ -5,7 +5,7 @@ These scripts are run in the All of Us Researcher Workbench and use the files be
 - `01_evaluate_metabolite_models.py` externally validates the INTERVAL-trained and MCPS-trained genetic models for the six Nightingale NMR metabolomic traits used in the manuscript and records both R² and Spearman rho.
 - `02_disease_associations.py` tests associations of the predicted metabolomic traits with ischemic heart disease, type 2 diabetes and chronic kidney disease, as used in Figure 5 and Supplementary Figures 9–12.
 
-The disease-association script reads model and Nightingale trait names from the metadata workbook included with the repository. Both scripts use precomputed genetic-score files. Upstream All of Us scoring used `pgsc_calc` 2.0.0 (pipeline revision `a10e219a42`) with Nextflow 24.10.2.
+The disease-association script reads model and Nightingale trait names from the metadata workbook included with the repository. Both scripts use precomputed genetic-score files. Genetic score imputation used `pgsc_calc` 2.0.0 (pipeline revision `a10e219a42`) with Nextflow 24.10.2.
 
 `02_disease_associations.py` uses the `GOOGLE_PROJECT` and `WORKSPACE_CDR` variables and requires PheTK in the selected Workbench environment. The AMR ID file, filtered genetic-score files and measured-trait files remain beneath `AOU_OMICS_PRED_ROOT`; the platform QC file is set with `AOU_FLAGGED_SAMPLES_FILE`, and disease-association results are written to `AOU_DISEASE_RESULTS_DIR`. See [`../config/env.example`](../config/env.example) for the path settings.
 
