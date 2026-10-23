@@ -23,7 +23,7 @@ The INTERVAL Study–trained genetic models used in this study are publicly acce
 
 ## Software and platforms
 
-Requirements and available package versions for each workflow are listed in the linked READMEs.
+Requirements and tested software versions for the MCPS, All of Us and local plotting workflows are listed in the linked READMEs. UKB version details remain incomplete.
 
 | Workflow | Operating system and interpreters | Setup |
 | --- | --- | --- |
@@ -32,7 +32,7 @@ Requirements and available package versions for each workflow are listed in the 
 | Aggregate figures | macOS Tahoe 26.6.2, arm64; R 4.5.3 | [Figures README](figures/README.md) |
 | UK Biobank analyses | UKB Research Analysis Platform; versions pending renewed platform access | [UKB README](ukb/README.md) |
 
-The YAML specifies the current AoU Python setup. MCPS Python/R and local plotting dependencies are listed separately in their READMEs. 
+The YAML specifies the current AoU Python setup. MCPS Python/R and local plotting dependencies are listed separately in their READMEs.
 
 ## Running the code
 
@@ -48,6 +48,6 @@ The repository includes the code for the main and supplementary figures shown in
 
 ## Licence
 
-The original analysis source code and documentation in this repository are licensed under [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/). The [full licence terms](https://creativecommons.org/licenses/by-sa/4.0/legalcode) apply. Third-party software retains its own licences, and cohort participant data remain subject to their access agreements. Genetic-score files distributed through OmicsPred are covered by the terms on their respective dataset pages.
+The original analysis source code and documentation in this repository are licensed under [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/). 
 
 Repository: `tinoreskovic/omicspred_amr_metabolomics`.
