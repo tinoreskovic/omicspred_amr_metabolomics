@@ -13,3 +13,23 @@ This folder contains the R code for the main and supplementary figures generated
 - `supplementary_figures_10_to_12_wheelplots.R`: Supplementary Figures 10–12.
 
 The scripts read the named summary-level outputs from `OMICSPRED_RESULTS_DIR` and write the figure panels to `OMICSPRED_FIGURE_DIR`. Extended Data Figure 1 was assembled in PowerPoint and is not generated here.
+
+## Local plotting environment
+
+These scripts use aggregate cohort results and can run locally; participant-level preparation, validation and PCA use the corresponding cohort platforms.
+
+R 4.5.3 on macOS Tahoe 26.6.2, arm64 (Darwin 25.6.0). 
+
+| Software | Version |
+| --- | --- |
+| data.table | 1.18.2.1 |
+| dplyr | 1.2.1 |
+| tidyr | 1.3.2 |
+| readr | 2.2.0 |
+| readxl | 1.4.5 |
+| ggplot2 | 4.0.3 |
+| stringr | 1.6.0 |
+| cowplot | 1.2.0 |
+| ggrepel | 0.9.8 |
+| circlize | 0.4.18 |
+
