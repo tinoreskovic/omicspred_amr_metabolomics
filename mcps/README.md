@@ -12,7 +12,9 @@ Run `validate_interval/01` through `03` first. `validate_interval/05_combine_coh
 
 ## Software and setup
 
-Rocky Linux 8.10, x86_64; Python 3.11.3 and R 4.3.2 in separate environments.
+Rocky Linux 8.10, x86_64; Python 3.11.3 and R 4.3.2 in separate environments. Versions were recorded on 23 October 2026 without rerunning the analyses.
+
+The genetic scoring used `pgsc_calc` 2.0.0-alpha.4 with Nextflow 23.10.1.
 
 ### Python training and summaries
 
@@ -35,7 +37,9 @@ The workbook-reading steps require openpyxl. After activating the study Python e
 python -m pip install "openpyxl==3.1.5" "et-xmlfile==2.0.0"
 ```
 
-PLINK `2.00a2.3LM` (24 January 2020) is provided by module `PLINK/2.00a2.3_x86_64`. The tuning and fitting code can use pgenlib and otherwise falls back to PLINK text export.
+The workbook-reader imports passed in the study Python environment with the NumPy and pandas versions above.
+
+PLINK `2.00a2.3LM` (24 January 2020) is provided by module `PLINK/2.00a2.3_x86_64`. The tuning and fitting code can use pgenlib for genotype access and otherwise falls back to PLINK text export.
 
 ### R preparation, validation and cohort plots
 
