@@ -7,3 +7,7 @@ These scripts externally validate the INTERVAL-trained and MCPS-trained genetic 
 - `02_plot_pca.R` makes the UK Biobank PCA panel used in Figure 3d.
 
 The UK Biobank file locations are set in `config/env.example`.
+
+## Software requirements
+
+R with data.table, readxl, dplyr, lubridate and ggplot2, plus base R functionality. The original RAP environment's OS and package versions are pending renewed platform access.
