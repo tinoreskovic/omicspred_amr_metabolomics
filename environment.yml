@@ -1,25 +1,28 @@
-name: omicspred-amr-metabolomics
+# All of Us Python environment. MCPS and local R setup are in their READMEs.
+name: omicspred-aou
 channels:
   - conda-forge
 dependencies:
-  - python=3.12
-  - numpy
-  - pandas
-  - openpyxl
-  - scipy
-  - scikit-learn
-  - statsmodels
-  - joblib
-  - google-cloud-bigquery
-  - r-base=4.4
-  - r-data.table
-  - r-dplyr
-  - r-tidyr
-  - r-readr
-  - r-readxl
-  - r-ggplot2
-  - r-lubridate
-  - r-stringr
-  - r-cowplot
-  - r-ggrepel
-  - r-circlize
+  - python=3.12.14
+  - pip
+  - pip:
+      - numpy==1.26.4
+      - pandas==2.3.3
+      - scipy==1.17.1
+      - statsmodels==0.15.0
+      - matplotlib==3.11.2
+      - seaborn==0.13.2
+      - phetk==0.3.6
+      - openpyxl==3.1.5
+      - pyarrow==24.0.0
+      - db-dtypes==1.4.3
+      - google-cloud-bigquery==3.38.0
+      - google-cloud-bigquery-storage==2.34.0
+      - google-cloud-storage==3.4.1
+      - gcsfs==2025.9.0
+      - google-api-core==2.25.1
+      - google-auth==2.40.3
+      - protobuf==6.32.0
+      - dsub==0.5.6
+      - ipython==9.17.1
+      - ipykernel==7.4.0
